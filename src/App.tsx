@@ -246,7 +246,7 @@ export default function KidVersePeruLanding() {
                     </div>
                   </div>
                   <div className="space-y-4 mt-8">
-                    <div className="bg-blue-100 rounded-2xl p-6 shadow-playful">
+                    <div className="bg-blue-100 rounded-2xl p-6 shadow-playful float">
                       <div className="text-4xl mb-2">🧸</div>
                       <h3 className="font-bold text-blue-900">Juego</h3>
                       <p className="text-sm text-blue-700">
