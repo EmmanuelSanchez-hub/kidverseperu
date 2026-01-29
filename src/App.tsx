@@ -257,7 +257,7 @@ export default function KidVersePeruLanding() {
                       <div className="text-4xl mb-2">🪑</div>
                       <h3 className="font-bold text-green-900">Ambiente Preparados</h3>
                       <p className="text-sm text-green-700">
-                        Conexión con el entorno natural
+                        Materiales accesibles que invitan a aprender haciendo
                       </p>
                     </div>
                   </div>
@@ -294,22 +294,22 @@ export default function KidVersePeruLanding() {
                   Taller de Arte Expresivo
                 </CardTitle>
                 <CardDescription>
-                  Desarrollo creativo con técnicas Waldorf
+                  Desarrollo Creativo con Técnicas Waldorf y Reggio Emilia
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-primary" />
-                    Pintura con acuarelas naturales
+                    Pintura con Acuarelas Naturales
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-primary" />
-                    Modelado con cera y arcilla
+                    Modelado con Arcilla
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-primary" />
-                    Tejido y manualidades
+                    Manualidades con Materiales Reutilizables
                   </li>
                 </ul>
                 <div className="flex items-center justify-between pt-4 border-t">
@@ -317,7 +317,7 @@ export default function KidVersePeruLanding() {
                     3-5 años
                   </span>
                   <Badge className="bg-green-100 text-green-800">
-                    Martes y Jueves
+                    Miercoles
                   </Badge>
                 </div>
               </CardContent>
@@ -326,20 +326,20 @@ export default function KidVersePeruLanding() {
             <Card className="border-2 border-secondary/20 shadow-playful hover:shadow-playful-lg transition-all duration-300 hover:-translate-y-1">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-blue-400 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                  🌿
+                  🏃
                 </div>
                 <CardTitle className="text-xl">
-                  Juego en la Naturaleza
+                  Psicomotricidad Fina y Gruesa
                 </CardTitle>
                 <CardDescription>
-                  Exploración y conexión con el entorno
+                  Desarrollo de Habilidades Motoras
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
-                    Jardín sensorial
+                    Actividades de Manos y Dedos
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
@@ -347,7 +347,7 @@ export default function KidVersePeruLanding() {
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
-                    Cuidado de plantas
+                    Juegos con Movimiento
                   </li>
                 </ul>
                 <div className="flex items-center justify-between pt-4 border-t">
@@ -355,7 +355,7 @@ export default function KidVersePeruLanding() {
                     3-5 años
                   </span>
                   <Badge className="bg-blue-100 text-blue-800">
-                    Lunes y Miércoles
+                    Lunes
                   </Badge>
                 </div>
               </CardContent>
@@ -366,7 +366,7 @@ export default function KidVersePeruLanding() {
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
                   🎵
                 </div>
-                <CardTitle className="text-xl">Música y Movimiento</CardTitle>
+                <CardTitle className="text-xl">Música y Danza</CardTitle>
                 <CardDescription>Desarrollo rítmico y corporal</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -389,7 +389,45 @@ export default function KidVersePeruLanding() {
                     3-5 años
                   </span>
                   <Badge className="bg-purple-100 text-purple-800">
-                    Viernes
+                    Jueves
+                  </Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-primary/20 shadow-playful hover:shadow-playful-lg transition-all duration-300 hover:-translate-y-1">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                  📚
+                </div>
+                <CardTitle className="text-xl">
+                  Plan Lector y Dramatización
+                </CardTitle>
+                <CardDescription>
+                  Narración Oral y Cuentos Rítmicos
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <ul className="space-y-2 text-sm">
+                  <li className="flex items-center">
+                    <ChevronRight className="h-4 w-4 mr-2 text-primary" />
+                    Creación de Personajes
+                  </li>
+                  <li className="flex items-center">
+                    <ChevronRight className="h-4 w-4 mr-2 text-primary" />
+                    Juego de Palabras
+                  </li>
+                  <li className="flex items-center">
+                    <ChevronRight className="h-4 w-4 mr-2 text-primary" />
+                    Rimas con Movimiento
+                  </li>
+                </ul>
+                <div className="flex items-center justify-between pt-4 border-t">
+                  <span className="text-sm text-muted-foreground">
+                    3-5 años
+                  </span>
+                  <Badge className="bg-green-100 text-green-800">
+                    Martes
                   </Badge>
                 </div>
               </CardContent>
