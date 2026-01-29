@@ -294,22 +294,22 @@ export default function KidVersePeruLanding() {
                   Taller de Arte Expresivo
                 </CardTitle>
                 <CardDescription>
-                  Desarrollo Creativo con Técnicas Waldorf y Reggio Emilia
+                  Desarrollo creativo con técnicas Waldorf y Reggio Emilia
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-primary" />
-                    Pintura con Acuarelas Naturales
+                    Pintura con acuarelas naturales
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-primary" />
-                    Modelado con Arcilla
+                    Modelado con arcilla
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-primary" />
-                    Manualidades con Materiales Reutilizables
+                    Manualidades con materiales reutilizables
                   </li>
                 </ul>
                 <div className="flex items-center justify-between pt-4 border-t">
@@ -332,14 +332,14 @@ export default function KidVersePeruLanding() {
                   Psicomotricidad Fina y Gruesa
                 </CardTitle>
                 <CardDescription>
-                  Desarrollo de Habilidades Motoras
+                  Desarrollo de habilidades motoras
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
-                    Actividades de Manos y Dedos
+                    Actividades de manos y dedos
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
@@ -347,7 +347,7 @@ export default function KidVersePeruLanding() {
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
-                    Juegos con Movimiento
+                    Juegos con movimiento
                   </li>
                 </ul>
                 <div className="flex items-center justify-between pt-4 border-t">
@@ -404,7 +404,7 @@ export default function KidVersePeruLanding() {
                   Plan Lector y Dramatización
                 </CardTitle>
                 <CardDescription>
-                  Narración Oral y Cuentos Rítmicos
+                  Desarrollo del Lenguaje Con Técnicas Waldorf
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -428,6 +428,44 @@ export default function KidVersePeruLanding() {
                   </span>
                   <Badge className="bg-green-100 text-green-800">
                     Martes
+                  </Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-secondary/20 shadow-playful hover:shadow-playful-lg transition-all duration-300 hover:-translate-y-1">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-blue-400 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                  👣
+                </div>
+                <CardTitle className="text-xl">
+                  Taller Sensorial Temprano
+                </CardTitle>
+                <CardDescription>
+                  Exploración y descubrimiento a través de los sentidos
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <ul className="space-y-2 text-sm">
+                  <li className="flex items-center">
+                    <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
+                    Bandejas sensoriales
+                  </li>
+                  <li className="flex items-center">
+                    <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
+                    Experiencia de causa - efecto
+                  </li>
+                  <li className="flex items-center">
+                    <ChevronRight className="h-4 w-4 mr-2 text-secondary" />
+                    Materiales naturales y cotidianos
+                  </li>
+                </ul>
+                <div className="flex items-center justify-between pt-4 border-t">
+                  <span className="text-sm text-muted-foreground">
+                    1-2 años
+                  </span>
+                  <Badge className="bg-blue-100 text-blue-800">
+                    Viernes
                   </Badge>
                 </div>
               </CardContent>
@@ -533,11 +571,10 @@ export default function KidVersePeruLanding() {
               Servicios Educativos
             </Badge>
             <h2 className="text-3xl sm:text-5xl font-bold text-gradient-primary">
-              Planificación Curricular Personalizada
+              Planificación Curricular Creativa
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Asesoramiento especializado para centros educativos y padres en el
-              nivel inicial
+              Diseño y venta de planificaciones educativas inspiradas en pedagogía Reggio Emilia y Waldorf
             </p>
           </div>
 
@@ -549,12 +586,10 @@ export default function KidVersePeruLanding() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">
-                    Diseño Curricular Waldorf
+                    Proyecto de Aprendizaje
                   </h3>
                   <p className="text-muted-foreground">
-                    Creación de programas educativos integrales siguiendo los
-                    principios de la pedagogía Waldorf adaptados al contexto
-                    peruano.
+                    Planificaciones integrales basadas en intereses del niño, con experiencias significativas y sentido pedagógico.
                   </p>
                 </div>
               </div>
@@ -565,11 +600,11 @@ export default function KidVersePeruLanding() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">
-                    Capacitación Docente
+                    Actividades de Aprendizaje
                   </h3>
                   <p className="text-muted-foreground">
-                    Formación continua para educadores en metodologías activas y
-                    enfoques pedagógicos innovadores para educación inicial.
+                    Secuencias creativas que integran juego, exploración 
+                    sensorial, expresión artística y movimiento.
                   </p>
                 </div>
               </div>
@@ -580,11 +615,11 @@ export default function KidVersePeruLanding() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">
-                    Asesoramiento Parental
+                    Talleres de Aprendizaje
                   </h3>
                   <p className="text-muted-foreground">
-                    Orientación a familias sobre el desarrollo infantil y
-                    estrategias para apoyar el aprendizaje en el hogar.
+                    Propuestas practicas organizadas por experiencias 
+                    (grafico plastico, plan lector, música, psicomotricidad, dramatización y danza).
                   </p>
                 </div>
               </div>
@@ -744,11 +779,11 @@ export default function KidVersePeruLanding() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center">
                   <Clock className="h-4 w-4 mr-2" />
-                  Lunes a Viernes: 9:00 - 13:00
+                  Lunes a Viernes: 8:00 - 17:00
                 </li>
                 <li className="flex items-center">
                   <Clock className="h-4 w-4 mr-2" />
-                  Sábados: 10:00 - 12:00
+                  Sábados: 9:00 - 12:00
                 </li>
                 <li className="flex items-center">
                   <Calendar className="h-4 w-4 mr-2" />
@@ -762,15 +797,15 @@ export default function KidVersePeruLanding() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  +51 123 456 789
+                  +51 912344456
                 </li>
                 <li className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  info@kidverseperu.edu.pe
+                  kidversecompany@gmail.com
                 </li>
                 <li className="flex items-center">
                   <MapPin className="h-4 w-4 mr-2" />
-                  Lima, Perú
+                  Nuevo Chimbote, Perú
                 </li>
               </ul>
             </div>
