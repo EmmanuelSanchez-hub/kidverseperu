@@ -27,6 +27,8 @@ import {
   Clock,
   Award,
 } from "lucide-react";
+import Navbar from "@/components/layout/Navbar";
+import Foooter from "@/components/layout/Footer";
 
 export default function KidVersePeruLanding() {
   const [selectedCategory, setSelectedCategory] = useState("todos");
@@ -109,66 +111,10 @@ export default function KidVersePeruLanding() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/20">
       {/* Header Navigation */}
-      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                <Sparkles className="h-4 w-4" />
-              </div>
-              <span className="text-xl font-bold text-gradient-primary">
-                KidVersePeru
-              </span>
-            </div>
-
-            <nav className="hidden md:flex items-center space-x-6">
-              <a
-                href="#inicio"
-                className="text-sm font-medium hover:text-primary transition-colors"
-              >
-                Inicio
-              </a>
-              <a
-                href="#talleres"
-                className="text-sm font-medium hover:text-primary transition-colors"
-              >
-                Talleres
-              </a>
-              <a
-                href="#productos"
-                className="text-sm font-medium hover:text-primary transition-colors"
-              >
-                Productos
-              </a>
-              <a
-                href="#servicios"
-                className="text-sm font-medium hover:text-primary transition-colors"
-              >
-                Servicios
-              </a>
-              <a
-                href="#contacto"
-                className="text-sm font-medium hover:text-primary transition-colors"
-              >
-                Contacto
-              </a>
-            </nav>
-
-            <Button className="bg-primary hover:bg-primary-hover text-primary-foreground">
-              <Gift className="mr-2 h-4 w-4" />
-              <a
-                href="https://api.whatsapp.com/send?phone=51971049107&text=Hola%2C%20mi%20nombre%20es%20%5BNombre%20del%20padre%2Fmadre%5D%20y%20estoy%20interesado(a)%20en%20inscribir%20a%20mi%20hijo(a)%20en%20KidversePeru%20%F0%9F%8F%AB.%0A%0A%F0%9F%91%B6%20Edad%3A%20%5B3-5%20años%5D%0A%F0%9F%93%9A%20Curso%3A%20Educación%20con%20pedagogía%20Waldorf%0A%0APor%20favor%2C%20%C2%BFpodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%20sobre%20inscripci%C3%B3n%20y%20horarios%3F%0A%0A%C2%A1Muchas%20gracias!%20%F0%9F%99%8F"
-                target="_blank"
-              >
-                Inscribirse
-              </a>
-            </Button>
-          </div>
-        </div>
-      </header>
+      <Navbar/>
 
       {/* Hero Section */}
-      <section id="inicio" className="relative overflow-hidden py-20 sm:py-32">
+      <section id="inicio" className="relative overflow-hidden py-20 sm:py-25">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10" />
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -704,121 +650,7 @@ export default function KidVersePeruLanding() {
       </section>
 
       {/* Footer */}
-      <footer
-        id="contacto"
-        className="bg-gradient-to-r from-primary/10 to-accent/10 border-t"
-      >
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                  <Sparkles className="h-4 w-4" />
-                </div>
-                <span className="text-xl font-bold text-gradient-primary">
-                  KidVersePeru
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground">
-                Educación inicial inspirada en la pedagogía Waldorf para
-                desarrollar el potencial único de cada niño.
-              </p>
-              <div className="flex space-x-4">
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                >
-                  <Facebook className="h-4 w-4" />
-                </Button>
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                >
-                  <Instagram className="h-4 w-4" />
-                </Button>
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                >
-                  <MessageCircle className="h-4 w-4" />
-                </Button>
-              </div>
-            </div>
-
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold">Servicios</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>
-                  <a href="#" className="hover:text-primary transition-colors">
-                    Talleres Educativos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary transition-colors">
-                    Materiales Waldorf
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary transition-colors">
-                    Planificación Curricular
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary transition-colors">
-                    Asesoramiento Parental
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold">Horarios</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li className="flex items-center">
-                  <Clock className="h-4 w-4 mr-2" />
-                  Lunes a Viernes: 8:00 - 17:00
-                </li>
-                <li className="flex items-center">
-                  <Clock className="h-4 w-4 mr-2" />
-                  Sábados: 9:00 - 12:00
-                </li>
-                <li className="flex items-center">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  Consultas previas
-                </li>
-              </ul>
-            </div>
-
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold">Contacto</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li className="flex items-center">
-                  <Phone className="h-4 w-4 mr-2" />
-                  +51 912344456
-                </li>
-                <li className="flex items-center">
-                  <Mail className="h-4 w-4 mr-2" />
-                  kidversecompany@gmail.com
-                </li>
-                <li className="flex items-center">
-                  <MapPin className="h-4 w-4 mr-2" />
-                  Nuevo Chimbote, Perú
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>
-              &copy; 2026 KidVersePeru. Todos los derechos reservados. Hecho con
-              ❤️ para los niños del Perú.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Foooter/>
     </div>
   );
 }
