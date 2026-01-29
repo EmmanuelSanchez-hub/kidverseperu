@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+  
+  /* KidVersePeru Playful Color Palette */
+  --background: oklch(0.99 0.02 350); /* Warm white */
+  --foreground: oklch(0.15 0.08 280); /* Soft dark blue */
+  --card: oklch(0.98 0.03 20); /* Warm card background */
+  --card-foreground: oklch(0.15 0.08 280);
+  --popover: oklch(0.98 0.03 20);
+  --popover-foreground: oklch(0.15 0.08 280);
+  
+  /* Primary Colors - Orange/Coral Theme */
+  --primary: oklch(0.68 0.18 35); /* Warm coral */
+  --primary-foreground: oklch(0.98 0.02 350);
+  --primary-hover: oklch(0.62 0.20 35);
+  --primary-active: oklch(0.56 0.22 35);
+  
+  /* Secondary Colors - Mint Green */
+  --secondary: oklch(0.82 0.12 160); /* Soft mint */
+  --secondary-foreground: oklch(0.15 0.08 280);
+  --secondary-hover: oklch(0.76 0.14 160);
+  
+  /* Accent Colors */
+  --accent: oklch(0.75 0.15 280); /* Purple accent */
+  --accent-foreground: oklch(0.98 0.02 350);
+  --accent-hover: oklch(0.69 0.17 280);
+  
+  /* Additional Playful Colors */
+  --yellow: oklch(0.85 0.16 85); /* Sunny yellow */
+  --pink: oklch(0.75 0.18 340); /* Soft pink */
+  --blue: oklch(0.65 0.15 220); /* Sky blue */
+  
+  /* Neutral Colors */
+  --muted: oklch(0.94 0.02 20);
+  --muted-foreground: oklch(0.45 0.04 280);
+  --destructive: oklch(0.65 0.22 15);
+  --border: oklch(0.88 0.04 20);
+  --input: oklch(0.92 0.03 20);
+  --ring: oklch(0.68 0.18 35);
+  
+  /* Chart Colors */
+  --chart-1: oklch(0.68 0.18 35); /* Coral */
+  --chart-2: oklch(0.82 0.12 160); /* Mint */
+  --chart-3: oklch(0.75 0.15 280); /* Purple */
+  --chart-4: oklch(0.85 0.16 85); /* Yellow */
+  --chart-5: oklch(0.75 0.18 340); /* Pink */
+  
+  /* Sidebar Colors */
+  --sidebar: oklch(0.98 0.03 20);
+  --sidebar-foreground: oklch(0.15 0.08 280);
+  --sidebar-primary: oklch(0.68 0.18 35);
+  --sidebar-primary-foreground: oklch(0.98 0.02 350);
+  --sidebar-accent: oklch(0.94 0.02 20);
+  --sidebar-accent-foreground: oklch(0.15 0.08 280);
+  --sidebar-border: oklch(0.88 0.04 20);
+  --sidebar-ring: oklch(0.68 0.18 35);
+}
+
+.dark {
+  /* KidVersePeru Dark Theme - Playful but easy on eyes */
+  --background: oklch(0.12 0.02 280); /* Deep blue background */
+  --foreground: oklch(0.95 0.02 350); /* Warm white text */
+  --card: oklch(0.18 0.03 280); /* Dark blue cards */
+  --card-foreground: oklch(0.95 0.02 350);
+  --popover: oklch(0.18 0.03 280);
+  --popover-foreground: oklch(0.95 0.02 350);
+  
+  /* Primary Colors - Adjusted for dark */
+  --primary: oklch(0.75 0.16 35); /* Brighter coral for dark */
+  --primary-foreground: oklch(0.12 0.02 280);
+  --primary-hover: oklch(0.80 0.18 35);
+  --primary-active: oklch(0.85 0.20 35);
+  
+  /* Secondary Colors - Adjusted for dark */
+  --secondary: oklch(0.70 0.14 160); /* Brighter mint */
+  --secondary-foreground: oklch(0.12 0.02 280);
+  --secondary-hover: oklch(0.75 0.16 160);
+  
+  /* Accent Colors - Adjusted for dark */
+  --accent: oklch(0.80 0.16 280); /* Brighter purple */
+  --accent-foreground: oklch(0.12 0.02 280);
+  --accent-hover: oklch(0.85 0.18 280);
+  
+  /* Additional Playful Colors - Dark mode */
+  --yellow: oklch(0.80 0.18 85); /* Softer yellow */
+  --pink: oklch(0.70 0.20 340); /* Softer pink */
+  --blue: oklch(0.60 0.18 220); /* Softer blue */
+  
+  /* Neutral Colors - Dark mode */
+  --muted: oklch(0.25 0.03 280);
+  --muted-foreground: oklch(0.65 0.04 350);
+  --destructive: oklch(0.70 0.20 15);
+  --border: oklch(0.30 0.04 280);
+  --input: oklch(0.35 0.03 280);
+  --ring: oklch(0.75 0.16 35);
+  
+  /* Chart Colors - Dark mode */
+  --chart-1: oklch(0.75 0.16 35); /* Coral */
+  --chart-2: oklch(0.70 0.14 160); /* Mint */
+  --chart-3: oklch(0.80 0.16 280); /* Purple */
+  --chart-4: oklch(0.80 0.18 85); /* Yellow */
+  --chart-5: oklch(0.70 0.20 340); /* Pink */
+  
+  /* Sidebar Colors - Dark mode */
+  --sidebar: oklch(0.18 0.03 280);
+  --sidebar-foreground: oklch(0.95 0.02 350);
+  --sidebar-primary: oklch(0.75 0.16 35);
+  --sidebar-primary-foreground: oklch(0.12 0.02 280);
+  --sidebar-accent: oklch(0.25 0.03 280);
+  --sidebar-accent-foreground: oklch(0.95 0.02 350);
+  --sidebar-border: oklch(0.30 0.04 280);
+  --sidebar-ring: oklch(0.75 0.16 35);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  /* Playful animations for KidVersePeru */
+  .bounce-gentle {
+    animation: bounce-gentle 2s ease-in-out infinite;
+  }
+  
+  .wiggle {
+    animation: wiggle 0.5s ease-in-out;
+  }
+  
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .rainbow-border {
+    background: linear-gradient(45deg, 
+      var(--yellow), var(--pink), var(--accent), var(--secondary), var(--primary));
+    background-size: 300% 300%;
+    animation: rainbow-shift 3s ease-in-out infinite;
+  }
+  
+  /* Custom shadows for playful look */
+  .shadow-playful {
+    box-shadow: 0 8px 25px -5px rgb(0 0 0 / 0.1), 
+                0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  
+  .shadow-playful-lg {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 
+                0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  
+  /* Text gradients for headings */
+  .text-gradient-primary {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-rainbow {
+    background: linear-gradient(45deg, var(--primary), var(--yellow), var(--pink), var(--accent));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: rainbow-shift 4s ease-in-out infinite;
+  }
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes rainbow-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
