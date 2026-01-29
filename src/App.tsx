@@ -183,8 +183,8 @@ export default function KidVersePeruLanding() {
                 </h1>
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
                   En KidVersePeru creamos experiencias educativas únicas para
-                  niños de 3 a 5 años, inspirados en la pedagogía Waldorf para
-                  desarrollar su potencial integral.
+                  niños de 3 a 5 años, inspiradas en pedagogías innovadoras para
+                  desarrollar el potencial integral.
                 </p>
               </div>
 
@@ -254,8 +254,8 @@ export default function KidVersePeruLanding() {
                       </p>
                     </div>
                     <div className="bg-green-100 rounded-2xl p-6 shadow-playful float">
-                      <div className="text-4xl mb-2">🌱</div>
-                      <h3 className="font-bold text-green-900">Naturaleza</h3>
+                      <div className="text-4xl mb-2">🪑</div>
+                      <h3 className="font-bold text-green-900">Ambiente Preparados</h3>
                       <p className="text-sm text-green-700">
                         Conexión con el entorno natural
                       </p>
