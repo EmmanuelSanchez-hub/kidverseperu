@@ -500,7 +500,7 @@ export default function AgendarReunion() {
                       <div>
                         <p className="text-sm font-medium">Ubicación</p>
                         <p className="text-sm text-muted-foreground">
-                          Lima, Perú
+                          Nuevo Chimbote, Perú
                         </p>
                       </div>
                     </div>
