@@ -45,7 +45,7 @@
 :root {
   --radius: 0.625rem;
   
-  /* KidVersePeru Playful Color Palette */
+  /*  Playful Color Palette */
   --background: oklch(0.99 0.02 350); /* Warm white */
   --foreground: oklch(0.15 0.08 280); /* Soft dark blue */
   --card: oklch(0.98 0.03 20); /* Warm card background */
@@ -101,7 +101,7 @@
 }
 
 .dark {
-  /* KidVersePeru Dark Theme - Playful but easy on eyes */
+  /* Dark Theme - Playful but easy on eyes */
   --background: oklch(0.12 0.02 280); /* Deep blue background */
   --foreground: oklch(0.95 0.02 350); /* Warm white text */
   --card: oklch(0.18 0.03 280); /* Dark blue cards */
@@ -167,7 +167,7 @@
 }
 
 @layer utilities {
-  /* Playful animations for KidVersePeru */
+  /* Playful animations */
   .bounce-gentle {
     animation: bounce-gentle 2s ease-in-out infinite;
   }

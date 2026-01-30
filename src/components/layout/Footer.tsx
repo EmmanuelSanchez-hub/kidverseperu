@@ -16,7 +16,7 @@ export default function Foooter() {
                 <Sparkles className="h-4 w-4" />
               </div>
               <span className="text-xl font-bold text-gradient-primary">
-                KidVersePeru
+                SmileAtWork
               </span>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -116,7 +116,7 @@ export default function Foooter() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                kidversecompany@gmail.com
+                smileatworkcompany@gmail.com
               </li>
               <li className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
@@ -128,7 +128,7 @@ export default function Foooter() {
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; 2026 KidVersePeru. Todos los derechos reservados. Hecho con
+            &copy; 2026 SmileAtWork. Todos los derechos reservados. Hecho con
             ❤️ para los niños del Perú.
           </p>
         </div>

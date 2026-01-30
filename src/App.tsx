@@ -12,25 +12,19 @@ import {
   Star,
   BookOpen,
   Users,
-  Mail,
-  Phone,
-  MapPin,
-  Facebook,
-  Instagram,
-  MessageCircle,
   ChevronRight,
   Play,
   Heart,
   Sparkles,
   Gift,
   Calendar,
-  Clock,
   Award,
 } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Foooter from "@/components/layout/Footer";
+import { scrollToSection } from "@/lib/scrollToSection";
 
-export default function KidVersePeruLanding() {
+export default function SmileAtWorkLanding() {
   const [selectedCategory, setSelectedCategory] = useState("todos");
 
   // Datos de productos Waldorf
@@ -128,7 +122,7 @@ export default function KidVersePeruLanding() {
                   Descubre el Mundo Mágico del Aprendizaje
                 </h1>
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                  En KidVersePeru creamos experiencias educativas únicas para
+                  En SmileAtWork creamos experiencias educativas únicas para
                   niños de 3 a 5 años, inspiradas en pedagogías innovadoras para
                   desarrollar el potencial integral.
                 </p>
@@ -146,9 +140,10 @@ export default function KidVersePeruLanding() {
                   size="lg"
                   variant="outline"
                   className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => scrollToSection("productos")}
                 >
                   <BookOpen className="mr-2 h-5 w-5" />
-                  <a href="#productos">Ver Catálogo</a>
+                  Ver Catálogo
                 </Button>
               </div>
 
@@ -166,7 +161,7 @@ export default function KidVersePeruLanding() {
                 <div>
                   <p className="text-sm font-medium">+200 familias felices</p>
                   <p className="text-xs text-muted-foreground">
-                    Confían en KidVersePeru
+                    Confían en SmileAtWork
                   </p>
                 </div>
               </div>
@@ -601,7 +596,7 @@ export default function KidVersePeruLanding() {
               ¿Por qué elegirnos?
             </Badge>
             <h2 className="text-3xl sm:text-5xl font-bold text-gradient-primary">
-              Beneficios de KidVersePeru
+              Beneficios de SmileAtWork
             </h2>
           </div>
 
