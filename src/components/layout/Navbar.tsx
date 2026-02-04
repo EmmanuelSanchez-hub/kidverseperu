@@ -33,7 +33,7 @@ export default function Navbar() {
           <Button className="bg-primary hover:bg-primary-hover text-primary-foreground">
             <Gift className="mr-2 h-4 w-4" />
             <a
-              href="https://api.whatsapp.com/send?phone=51971049107&text=Hola%2C%20mi%20nombre%20es%20%5BNombre%20del%20padre%2Fmadre%5D%20y%20estoy%20interesado(a)%20en%20inscribir%20a%20mi%20hijo(a)%20en%20SmileAtWork%20%F0%9F%8F%AB.%0A%0A%F0%9F%91%B6%20Edad%3A%20%5B3-5%20años%5D%0A%F0%9F%93%9A%20Curso%3A%20Educación%20con%20pedagogía%20Waldorf%0A%0APor%20favor%2C%20%C2%BFpodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%20sobre%20inscripci%C3%B3n%20y%20horarios%3F%0A%0A%C2%A1Muchas%20gracias!%20%F0%9F%99%8F"
+              href="https://api.whatsapp.com/send?phone=51947841499&text=Hola%2C%20mi%20nombre%20es%20%5BNombre%20del%20padre%2Fmadre%5D%20y%20estoy%20interesado(a)%20en%20inscribir%20a%20mi%20hijo(a)%20en%20SmileAtWork%20%F0%9F%8F%AB.%0A%0A%F0%9F%91%B6%20Edad%3A%20%5B3-5%20años%5D%0A%F0%9F%93%9A%20Curso%3A%20Educación%20con%20pedagogía%20Waldorf%0A%0APor%20favor%2C%20%C2%BFpodr%C3%ADan%20darme%20m%C3%A1s%20informaci%C3%B3n%20sobre%20inscripci%C3%B3n%20y%20horarios%3F%0A%0A%C2%A1Muchas%20gracias!%20%F0%9F%99%8F"
               target="_blank"
             >
               Inscribirse

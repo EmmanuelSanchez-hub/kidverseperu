@@ -1,4 +1,14 @@
-import { Calendar, Clock, Facebook, Instagram, Mail, MapPin, MessageCircle, Phone, Sparkles } from "lucide-react";
+import {
+  Calendar,
+  Clock,
+  Facebook,
+  Instagram,
+  Mail,
+  MapPin,
+  MessageCircle,
+  Phone,
+  Sparkles,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/lib/scrollToSection";
 
@@ -31,13 +41,15 @@ export default function Foooter() {
               >
                 <Facebook className="h-4 w-4" />
               </Button>
-              <Button
-                size="sm"
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              >
-                <Instagram className="h-4 w-4" />
-              </Button>
+              <a href="https://www.instagram.com/smile_atwork?igsh=dXRidnY2ODBheXlt" target="_blank" rel="noreferrer">
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                >
+                  <Instagram className="h-4 w-4" />
+                </Button>
+              </a>
               <Button
                 size="sm"
                 variant="outline"
@@ -128,8 +140,8 @@ export default function Foooter() {
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; 2026 SmileAtWork. Todos los derechos reservados. Hecho con
-            ❤️ para los niños del Perú.
+            &copy; 2026 SmileAtWork. Todos los derechos reservados. Hecho con ❤️
+            para los niños del Perú.
           </p>
         </div>
       </div>
