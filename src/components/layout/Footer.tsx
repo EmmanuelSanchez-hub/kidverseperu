@@ -124,7 +124,7 @@ export default function Foooter() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                +51 912344456
+                +51 947841499
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />

@@ -480,7 +480,7 @@ export default function AgendarReunion() {
                       <div>
                         <p className="text-sm font-medium">Teléfono</p>
                         <p className="text-sm text-muted-foreground">
-                          +51 123 456 789
+                          +51 947841499
                         </p>
                       </div>
                     </div>
